@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: Lista
+  
+    &mdash; Documentation by YARD 0.9.20
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "Lista";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (L)</a> &raquo;
+    
+    
+    <span class="title">Lista</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: Lista
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Lista</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  <dl>
+      <dt>Includes:</dt>
+      <dd>Enumerable</dd>
+  </dl>
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/pract06/lista.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>Clase lista doblemente enlazada destinada principalmente a contener Alimentos.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><h2>Defined Under Namespace</h2>
+<p class="children">
+  
+    
+  
+    
+      <strong class="classes">Classes:</strong> <span class='object_link'><a href="Lista/Node.html" title="Lista::Node (class)">Node</a></span>
+    
+  
+</p>
+
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#delete-instance_method" title="#delete (instance method)">#<strong>delete</strong>(valor)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para eliminar un elemento de la lista a desear a través del parámetro.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#deleteHead-instance_method" title="#deleteHead (instance method)">#<strong>deleteHead</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método que elimina el primer elemento que se insertó.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#deleteTail-instance_method" title="#deleteTail (instance method)">#<strong>deleteTail</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para eliminar el último elemento que se ha insertado.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#each-instance_method" title="#each (instance method)">#<strong>each</strong> {|current_node.value| ... } &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método destinado a convertir la clase en enumerable a cada uno de sus elementos.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getHead-instance_method" title="#getHead (instance method)">#<strong>getHead</strong>  &#x21d2; Any </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método que obtiene el objeto que se insertó por primera vez.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getTail-instance_method" title="#getTail (instance method)">#<strong>getTail</strong>  &#x21d2; Any </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método que obtiene el objeto que se insertó por última vez.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getValor-instance_method" title="#getValor (instance method)">#<strong>getValor</strong>(n)  &#x21d2; Any </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método destinado a obtener un elemento de la lista según un número de 1 a N, tamaño máximo de la lista.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">#<strong>initialize</strong>(valor)  &#x21d2; Lista </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Inicialización de la clase.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#insert-instance_method" title="#insert (instance method)">#<strong>insert</strong>(valor)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para insertar elementos en la lista por el final.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#size-instance_method" title="#size (instance method)">#<strong>size</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método que calcula el tamaño de la lista.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#to_s-instance_method" title="#to_s (instance method)">#<strong>to_s</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para dar formato texto a la información relevante de la clase de una manera estructurada.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#valor-instance_method" title="#valor (instance method)">#<strong>valor</strong>  &#x21d2; Integer<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para calcular el número total contenido en la lista, destinada solo a cuando se guardan Integer.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#valorCarbohidratos-instance_method" title="#valorCarbohidratos (instance method)">#<strong>valorCarbohidratos</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para calcular los carbohidratos totales de la lista.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#valorGrasas-instance_method" title="#valorGrasas (instance method)">#<strong>valorGrasas</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para calcular las grasas totales de la lista.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#valorProteinas-instance_method" title="#valorProteinas (instance method)">#<strong>valorProteinas</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Método para calcular las grasas totales de la lista.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  <div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    #<strong>initialize</strong>(valor)  &#x21d2; <tt><span class='object_link'><a href="" title="Lista (class)">Lista</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Inicialización de la clase</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>valor</span>
+      
+      
+        <span class='type'>(<tt>Any</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Puede ser cualquier tipo de Objeto, que lo almacenará individualmente, aunque todos los métodos están pensados en Alimento.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+16
+17
+18
+19
+20</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 16</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span><span class='lparen'>(</span><span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_node'>node</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Lista/Node.html" title="Lista::Node (class)">Node</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='kw'>nil</span><span class='comma'>,</span><span class='kw'>nil</span><span class='comma'>,</span><span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+    <span class='ivar'>@head</span> <span class='op'>=</span> <span class='id identifier rubyid_node'>node</span>
+    <span class='ivar'>@tail</span> <span class='op'>=</span> <span class='id identifier rubyid_node'>node</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="delete-instance_method">
+  
+    #<strong>delete</strong>(valor)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para eliminar un elemento de la lista a desear a través del parámetro.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>valor</span>
+      
+      
+        <span class='type'>(<tt>Any</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>No hay un tipo de dato establecido, aunque todos los métodos están pensados en Alimento.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 61</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_delete'>delete</span><span class='lparen'>(</span><span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Lista/Node.html" title="Lista::Node (class)">Node</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="#initialize-instance_method" title="Lista#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='kw'>nil</span><span class='comma'>,</span><span class='kw'>nil</span><span class='comma'>,</span><span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_node'>node</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Lista/Node.html" title="Lista::Node (class)">Node</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="#initialize-instance_method" title="Lista#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='kw'>nil</span><span class='comma'>,</span><span class='kw'>nil</span><span class='comma'>,</span><span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='kw'>if</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span> <span class='op'>==</span> <span class='ivar'>@head</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+        <span class='ivar'>@head</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+    <span class='kw'>else</span>
+        <span class='kw'>while</span> <span class='lparen'>(</span><span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span><span class='rparen'>)</span> <span class='op'>&amp;&amp;</span> <span class='lparen'>(</span><span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span> <span class='op'>!=</span> <span class='id identifier rubyid_node'>node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='rparen'>)</span>
+            <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+        <span class='kw'>end</span>
+        <span class='kw'>if</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+            <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+            <span class='ivar'>@tail</span> <span class='op'>=</span> <span class='ivar'>@tail</span><span class='period'>.</span><span class='id identifier rubyid_prev'>prev</span>
+        <span class='kw'>end</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="deleteHead-instance_method">
+  
+    #<strong>deleteHead</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método que elimina el primer elemento que se insertó.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+86
+87
+88</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 86</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_deleteHead'>deleteHead</span>
+    <span class='ivar'>@head</span> <span class='op'>=</span> <span class='ivar'>@head</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="deleteTail-instance_method">
+  
+    #<strong>deleteTail</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para eliminar el último elemento que se ha insertado.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+81
+82
+83</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 81</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_deleteTail'>deleteTail</span>
+    <span class='ivar'>@tail</span> <span class='op'>=</span> <span class='ivar'>@tail</span><span class='period'>.</span><span class='id identifier rubyid_prev'>prev</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="each-instance_method">
+  
+    #<strong>each</strong> {|current_node.value| ... } &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método destinado a convertir la clase en enumerable a cada uno de sus elementos.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Yields:</p>
+<ul class="yield">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>current_node.value</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 29</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_each'>each</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='kw'>yield</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+
+    <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+        <span class='kw'>yield</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="getHead-instance_method">
+  
+    #<strong>getHead</strong>  &#x21d2; <tt>Any</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método que obtiene el objeto que se insertó por primera vez.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Any</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Primer elemento insertado.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+92
+93
+94</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 92</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_getHead'>getHead</span>
+    <span class='ivar'>@head</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="getTail-instance_method">
+  
+    #<strong>getTail</strong>  &#x21d2; <tt>Any</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método que obtiene el objeto que se insertó por última vez.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Any</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Último elemento insertado.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+98
+99
+100</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 98</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_getTail'>getTail</span>
+    <span class='ivar'>@tail</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="getValor-instance_method">
+  
+    #<strong>getValor</strong>(n)  &#x21d2; <tt>Any</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método destinado a obtener un elemento de la lista según un número de 1 a N, tamaño máximo de la lista.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>n</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Posición de la lista a escoger.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Any</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Depende de que hayan insertado.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 175</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_getValor'>getValor</span><span class='lparen'>(</span><span class='id identifier rubyid_n'>n</span><span class='rparen'>)</span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_n'>n</span> <span class='op'>==</span> <span class='int'>1</span>
+        <span class='ivar'>@head</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+    <span class='kw'>elsif</span> <span class='ivar'>@head</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>            
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+        <span class='id identifier rubyid_i'>i</span> <span class='op'>=</span> <span class='int'>2</span>
+        <span class='kw'>while</span> <span class='id identifier rubyid_i'>i</span> <span class='op'>&lt;</span> <span class='id identifier rubyid_n'>n</span>
+            <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+            <span class='id identifier rubyid_i'>i</span> <span class='op'>+=</span> <span class='int'>1</span>
+        <span class='kw'>end</span>
+
+        <span class='kw'>if</span> <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+            <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+        <span class='kw'>else</span>
+            <span class='kw'>nil</span>
+        <span class='kw'>end</span>
+    <span class='kw'>else</span>
+        <span class='kw'>nil</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="insert-instance_method">
+  
+    #<strong>insert</strong>(valor)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para insertar elementos en la lista por el final.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>valor</span>
+      
+      
+        <span class='type'>(<tt>Any</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>No tiene un tipo de dato establecido, sea el que sea se inserta, aunque todos los métodos están pensados en Alimento.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 43</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_insert'>insert</span><span class='lparen'>(</span><span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_nodo'>nodo</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Lista/Node.html" title="Lista::Node (class)">Node</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="#initialize-instance_method" title="Lista#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='kw'>nil</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='comma'>,</span> <span class='id identifier rubyid_valor'>valor</span><span class='rparen'>)</span>
+
+    <span class='kw'>if</span> <span class='ivar'>@head</span> <span class='op'>==</span> <span class='kw'>nil</span> <span class='kw'>and</span> <span class='ivar'>@tail</span> <span class='op'>==</span> <span class='kw'>nil</span>
+        <span class='ivar'>@tail</span> <span class='op'>=</span> <span class='id identifier rubyid_nodo'>nodo</span>
+        <span class='ivar'>@head</span> <span class='op'>=</span> <span class='id identifier rubyid_nodo'>nodo</span>
+    <span class='kw'>else</span>
+        <span class='id identifier rubyid_auxNode'>auxNode</span> <span class='op'>=</span> <span class='ivar'>@tail</span>
+        <span class='id identifier rubyid_auxNode'>auxNode</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>=</span> <span class='id identifier rubyid_nodo'>nodo</span>
+        <span class='id identifier rubyid_nodo'>nodo</span><span class='period'>.</span><span class='id identifier rubyid_prev'>prev</span> <span class='op'>=</span> <span class='id identifier rubyid_auxNode'>auxNode</span>
+
+        <span class='ivar'>@tail</span> <span class='op'>=</span> <span class='id identifier rubyid_nodo'>nodo</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="size-instance_method">
+  
+    #<strong>size</strong>  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método que calcula el tamaño de la lista.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Tamaño de la lista.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 198</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_size'>size</span>
+    <span class='kw'>if</span> <span class='ivar'>@head</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+        <span class='id identifier rubyid_size'>size</span> <span class='op'>=</span> <span class='int'>1</span>
+
+        <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+            <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+            <span class='id identifier rubyid_size'>size</span> <span class='op'>+=</span> <span class='int'>1</span>
+        <span class='kw'>end</span>
+
+        <span class='id identifier rubyid_size'>size</span>
+    <span class='kw'>else</span>
+        <span class='kw'>return</span> <span class='int'>0</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="to_s-instance_method">
+  
+    #<strong>to_s</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para dar formato texto a la información relevante de la clase de una manera estructurada.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Información de la clase.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 219</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_to_s'>to_s</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='id identifier rubyid_print'>print</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span>
+
+    <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+        <span class='id identifier rubyid_print'>print</span>  <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'> -&gt; </span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="valor-instance_method">
+  
+    #<strong>valor</strong>  &#x21d2; <tt>Integer</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para calcular el número total contenido en la lista, destinada solo a cuando se guardan Integer.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Suma de los elementos.</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Cuando se llama sin contener Integer, devuelve un nil.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 153</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_valor'>valor</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='kw'>if</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_class'>class</span> <span class='op'>==</span> <span class='const'>Integer</span>
+        <span class='id identifier rubyid_valor'>valor</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+
+        <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+            <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+            <span class='id identifier rubyid_valor'>valor</span> <span class='op'>+=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span>
+        <span class='kw'>end</span>
+
+        <span class='kw'>return</span> <span class='id identifier rubyid_valor'>valor</span>
+    <span class='kw'>else</span>
+        <span class='kw'>return</span> <span class='kw'>nil</span>
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="valorCarbohidratos-instance_method">
+  
+    #<strong>valorCarbohidratos</strong>  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para calcular los carbohidratos totales de la lista.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Valor calórico total de los carbohidratos de la lista.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 104</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_valorCarbohidratos'>valorCarbohidratos</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='id identifier rubyid_valor'>valor</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_valorCarbohidratos'>valorCarbohidratos</span>
+
+    <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+        <span class='id identifier rubyid_valor'>valor</span> <span class='op'>+=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_valorCarbohidratos'>valorCarbohidratos</span>
+    <span class='kw'>end</span>
+
+    <span class='kw'>return</span> <span class='id identifier rubyid_valor'>valor</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="valorGrasas-instance_method">
+  
+    #<strong>valorGrasas</strong>  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para calcular las grasas totales de la lista.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Valor calórico total de las grasas de la lista.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 120</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_valorGrasas'>valorGrasas</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='id identifier rubyid_valor'>valor</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_valorGrasas'>valorGrasas</span>
+
+    <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+        <span class='id identifier rubyid_valor'>valor</span> <span class='op'>+=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_valorGrasas'>valorGrasas</span>
+    <span class='kw'>end</span>
+
+    <span class='kw'>return</span> <span class='id identifier rubyid_valor'>valor</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="valorProteinas-instance_method">
+  
+    #<strong>valorProteinas</strong>  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Método para calcular las grasas totales de la lista.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Valor calórico total de las grasas de la lista.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/pract06/lista.rb', line 136</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_valorProteinas'>valorProteinas</span>
+    <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='ivar'>@head</span>
+
+    <span class='id identifier rubyid_valor'>valor</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_valorProteinas'>valorProteinas</span>
+
+    <span class='kw'>while</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span> <span class='op'>!=</span> <span class='kw'>nil</span>
+        <span class='id identifier rubyid_current_node'>current_node</span> <span class='op'>=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_next'>next</span>
+
+        <span class='id identifier rubyid_valor'>valor</span> <span class='op'>+=</span> <span class='id identifier rubyid_current_node'>current_node</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_valorProteinas'>valorProteinas</span>
+    <span class='kw'>end</span>
+
+    <span class='kw'>return</span> <span class='id identifier rubyid_valor'>valor</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Dec 18 16:51:52 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.20 (ruby-2.6.3).
+</div>
+
+    </div>
+  </body>
+</html>
