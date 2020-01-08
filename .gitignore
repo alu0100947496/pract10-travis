@@ -11,4 +11,5 @@
 /tmp/
 
 # rspec failure tracking
+pkg/*
 .rspec_status
